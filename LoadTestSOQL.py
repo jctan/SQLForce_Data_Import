@@ -207,6 +207,6 @@ def loadSpreadsheet( session, filename, clearData=True):
 
 
 if __name__ == '__main__':
-    session = SQLForce.Session("gsmithfarmer")
-    loadSpreadsheet(session, "TestSalesforceData/Baseball.xls", True)
+    session = SQLForce.Session('PRODUCTION', 'jpmc@abilityhousing.org', 'chase123', 'azdPMyIMd9AHBmej8WrrBTCXY')
+    loadSpreadsheet(session, "/Users/johntan/Downloads/Cardinals/TestSalesforceData/Baseball.xls", True)
 
